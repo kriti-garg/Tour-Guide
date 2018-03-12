@@ -21,7 +21,7 @@ public class HistoricalFragment extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_historical, container, false);
 
-        ArrayList<Location> infoList = new ArrayList<Location>();
+        ArrayList<Location> infoList = new ArrayList<>();
         infoList.add(new Location(getString(R.string.historicalName1), getString(R.string.historicalAdd1)));
         infoList.add(new Location(getString(R.string.historicalName2), getString(R.string.historicalAdd2)));
 

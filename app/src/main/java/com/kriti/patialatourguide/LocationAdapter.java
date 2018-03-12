@@ -1,7 +1,5 @@
 package com.kriti.patialatourguide;
 
-import com.kriti.patialatourguide.Location;
-
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
@@ -16,14 +14,14 @@ import com.kriti.patialatourguide.R;
 
 import java.util.List;
 
-public class LocationAdapter extends ArrayAdapter<Location> {
+class LocationAdapter extends ArrayAdapter<Location> {
     public LocationAdapter(Context context, List<Location> locationInfo) {
         super(context, 0, locationInfo);
     }
 
     @NonNull
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, @NonNull ViewGroup parent) {
 
         Location posItem = getItem(position);
         View view = convertView;
@@ -34,6 +32,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         TextView heading = view.findViewById(R.id.heading);
         ImageView image = view.findViewById(R.id.imageId);
         TextView info = view.findViewById(R.id.info);
+        assert posItem != null;
         if (posItem.hasImage()) {
 
             image.setImageResource(posItem.getImageResId());

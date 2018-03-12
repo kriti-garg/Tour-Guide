@@ -19,7 +19,7 @@
         <activity android:name=".SightsFragment" />
         <activity android:name=".FoodFragment" />
         <activity android:name=".Historical_places" />
-        <activity android:name=".InstitutesFragment"></activity>
+        <activity android:name=".InstitutesFragment" />
     </application>
 
 </manifest>

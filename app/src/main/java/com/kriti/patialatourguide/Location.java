@@ -1,10 +1,9 @@
 package com.kriti.patialatourguide;
 
-public class Location {
-    private String heading;
+class Location {
+    private final String heading;
     private int imageResId = NO_IMAGE_PROVIDED;
-    ;
-    private String info;
+    private final String info;
     private static final int NO_IMAGE_PROVIDED = -1;
 
     public Location(String h, String i) {

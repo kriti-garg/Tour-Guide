@@ -1,13 +1,17 @@
 <resources>
     <string name="app_name">Tour guide</string>
+    <string name="image">Image</string>
     <string name="institutes">Institutes</string>
     <string name="food">Food</string>
-    <string name="sightseeing">sight_seeing</string>
-    <string name="historical">historical_places</string>
-    <string name="institutes1">Institutes\n  (Scroll Right)</string>
-    <string name="historical1">Historical places\n  (Scroll Right)</string>
-    <string name="sight1">Sight Seeing\n  (Scroll Right)</string>
-    <string name="food1">Food\n  (Scroll Right)</string>
+    <string name="sightseeing">Sight\n Seeing</string>
+    <string name="historical">Historical\n Places</string>-->
+    <string name="institutes1">\tInstitutes\n(Scroll Right)</string>
+    <string name="historical1">Historical places\n    (Scroll Right)</string>
+    <string name="historical2">\t\t\tHistorical\t\t\t\n\tplaces\n(Scroll Left)</string>
+    <string name="sight1">Sight Seeing\n (Scroll Right)</string>
+    <string name="sight2">Sight Seeing\n(Scroll Left)</string>
+    <string name="food1">\t\t\t\tFood\n (Scroll Right)</string>
+    <string name="food2">\tFood\n(Scroll Left)</string>
     <string name="instituteName1">1.Punjabi University</string>
     <string name="instituteAdd1">NH 64, Urban Estate Phase II</string>
     <string name="instituteName2">2.Government Mahindera College</string>

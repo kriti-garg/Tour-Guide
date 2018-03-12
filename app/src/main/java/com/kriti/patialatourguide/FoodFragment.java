@@ -22,7 +22,7 @@ public class FoodFragment extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_food, container, false);
 
-        ArrayList<Location> infoList = new ArrayList<Location>();
+        ArrayList<Location> infoList = new ArrayList<>();
         infoList.add(new Location(getString(R.string.foodName1),R.drawable.barbeque,getString(R.string.foodAdd1)));
         infoList.add(new Location(getString(R.string.foodName2),R.drawable.orange,getString(R.string.foodAdd2)));
 

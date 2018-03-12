@@ -1,19 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.kriti.patialatourguide.HistoricalFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/historical1"
-        android:textAlignment="center"
-        android:textColor="#111111"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtArrow"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/historical"
+            android:textAlignment="center"
+            android:textColor="#111111"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@id/txtArrow"
+            android:gravity="center_vertical"
+            android:text="@string/food2"
+            android:textColor="#111111"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/txtArrow"
+            android:gravity="center_vertical"
+            android:text="@string/institutes1"
+            android:textColor="#111111"
+            android:textSize="16sp"/>
+    </RelativeLayout>
 
     <ListView
         android:id="@+id/Historical"

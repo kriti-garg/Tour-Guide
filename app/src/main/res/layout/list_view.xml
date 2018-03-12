@@ -10,6 +10,7 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:scaleType="centerCrop"
+        android:contentDescription="@string/image"
         android:layout_weight="0.5"/>
 
     <LinearLayout

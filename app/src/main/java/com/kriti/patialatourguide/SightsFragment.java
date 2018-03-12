@@ -23,7 +23,7 @@ public class SightsFragment extends Fragment {
 
         View v = inflater.inflate(R.layout.fragment_sights, container, false);
 
-        ArrayList<Location> infoList = new ArrayList<Location>();
+        ArrayList<Location> infoList = new ArrayList<>();
         infoList.add(new Location(getString(R.string.sightName1),getString(R.string.sightAdd1)));
         infoList.add(new Location(getString(R.string.sightName2),getString(R.string.sightAdd2)));
 

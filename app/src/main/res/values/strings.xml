@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tour guide</string>
+    <string name="institutes">Institutes</string>
+    <string name="food">Food</string>
+    <string name="sightseeing">sight_seeing</string>
+    <string name="historical">historical_places</string>
+    <string name="institutes1">Institutes\n  (Scroll Right)</string>
+    <string name="historical1">Historical places\n  (Scroll Right)</string>
+    <string name="sight1">Sight Seeing\n  (Scroll Right)</string>
+    <string name="food1">Food\n  (Scroll Right)</string>
+    <string name="instituteName1">1.Punjabi University</string>
+    <string name="instituteAdd1">NH 64, Urban Estate Phase II</string>
+    <string name="instituteName2">2.Government Mahindera College</string>
+    <string name="instituteAdd2">Near NIS, Lower Mall Rd, Lower Mall, Patiala, Punjab 147001</string>
+    <string name="historicalName1">1.Quila Mubarak</string>
+    <string name="historicalAdd1">Quila Androon, Chandni Chowk, Adalat Bazar, Patiala, Punjab 147001</string>
+    <string name="historicalName2">2.Sheesh Mahal</string>
+    <string name="historicalAdd2">Old Moti Bagh, Moti Bagh, Patiala, Punjab 147001</string>
+    <string name="foodName1">1.The Yellow Chilli</string>
+    <string name="foodAdd1">Hotel The Grace, Lower Mall Road, Near N.I.S., Patiala, Punjab 147001</string>
+    <string name="foodName2">2.The Orange Hotel</string>
+    <string name="foodAdd2">Baradari Gardens, Patiala, Punjab 147002</string>
+    <string name="sightName1">1.Baradari Garden</string>
+    <string name="sightAdd1"> Baradary Garden Road,Sheranwala Gate, Patiala 147001, India</string>
+    <string name="sightName2">2.Omaxe mall</string>
+    <string name="sightAdd2">Mall Road, Opposite Kali Devi Temple, Patiala, Punjab 147001</string>
+
+
+
+
+</resources>
